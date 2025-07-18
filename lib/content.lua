@@ -10,10 +10,6 @@ SMODS.Atlas {
     px = 384,
     py = 256
 }
-SMODS.Sound {
-    key = 'fuck',
-    path = 'fuck.ogg'
-}
 SMODS.Atlas {
     key = 'stickers',
     path = 'stickers.png',
@@ -25,4 +21,8 @@ SMODS.Atlas {
     path = 'chips.png',
     px = 29,
     py = 29
+}
+SMODS.Sound {
+    key = 'fuck',
+    path = 'fuck.ogg'
 }
