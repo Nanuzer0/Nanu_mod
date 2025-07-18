@@ -399,3 +399,41 @@ SMODS.Joker {
 	cost = 200000,
     atlas = 'jonklers',
 }
+SMODS.Joker{ --Would you rather have
+    name = "Would you rather have",
+    key = "wouldyourather",
+    config = {
+        extra = {
+            dollars = 1
+        }
+    },
+    loc_txt = {
+        ['name'] = 'Would you rather have',
+        ['text'] = {
+            [1] = '{C:money}1${} or {C:money}2${}'
+        }
+    },
+    pos = {
+        x = 3,
+        y = 1
+    },
+    cost = 2,
+    rarity = 'nanu_dogsh',
+    blueprint_compat = false,
+    eternal_compat = true,
+    unlocked = true,
+    discovered = false,
+    atlas = 'jonklers',
+
+    loc_vars = function(self, info_queue, card)
+        return {vars = {}}
+    end,
+
+    calculate = function(self, card, context)
+        if context.end_of_round and context.game_over == false and context.main_eval and not context.blueprint then
+                return {
+                    dollars = card.ability.extra.dollars
+                }
+        end
+    end
+}
