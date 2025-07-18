@@ -1,0 +1,12 @@
+{
+	"id": "nanumod",
+	"name": "Nanu mod",
+	"display_name": "Nanu mod",
+	"author": ["Nanu"],
+	"description": "... yea",
+	"prefix": "nanu",
+	"main_file": "main.lua",
+	"priority": 0,
+	"version": "0.0.1",
+	"dependencies": []
+}
