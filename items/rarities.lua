@@ -10,7 +10,6 @@ SMODS.Rarity {
         -- ok i honestly don't hnow what rate does pls halp
         ["Joker"] = { rate = 0.1 },
     },
-    shiny = true --doesn't work? =(
 }
 SMODS.Rarity {
     key = 'impossible',

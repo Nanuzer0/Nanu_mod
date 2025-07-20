@@ -23,5 +23,6 @@ SMODS.Stake {
             name = "Dogshit sticker",
             text = {"why"}
         }
-    }
+    },
+    shiny = true
 }
