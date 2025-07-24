@@ -22,6 +22,12 @@ SMODS.Atlas {
     px = 29,
     py = 29
 }
+SMODS.Atlas {
+    key = 'decks',
+    path = 'decks.png',
+    px = 71,
+    py = 95
+}
 SMODS.Sound {
     key = 'fuck',
     path = 'fuck.ogg'
